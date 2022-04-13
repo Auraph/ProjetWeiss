@@ -19,4 +19,3 @@ $droit=$_POST['droit'];
 $sql = "INSERT INTO utilisateur(identifiant,mdp,droit) VALUES (?,?,?)";
 $res = $conn->prepare($sql);
 $exec = $res->execute(array($identifiant,$mdp,$droit));
-$resultat = $res->fetch();
