@@ -14,8 +14,8 @@ session_start();
 <header>
     <img class="logo" src="images/OPENéduc_logo.png">
     <div class="menu">
-        <p>Ecoles</p>
-        <p>A Propos</p>
+        <a class='lienHeaderE' href="ListeEcole.php">Ecoles</a>
+        <a class='lienHeaderA' href="APropos.php">A Propos</a>
     </div>
 </header>
 <body>
@@ -38,12 +38,7 @@ session_start();
 			<p>Nom de l'école :</p>
 			<input class="champs" type="text" id="nomEcole" name="nomEcole" required>
 
-            <select id="typeEcole" name="typeEcole">
-                <option> Maternelle
-                <option> Élémentaire
-                <option> Collège
-                <option> Lycée
-            </select>
+            
 
 
 
@@ -75,8 +70,8 @@ session_start();
             <h1>Correspondant local APEA</h1>
 
             <select id="genreApea" name="genreApea">
-                <option> M.
-                <option> Mme.
+                <option value="M"> M.
+                <option value="Mme" > Mme.
             </select>
 
             <p>Nom :</p>
@@ -98,8 +93,8 @@ session_start();
             <h1>Correspondant local mairie</h1>
 
             <select id="genreM" name="genreM">
-                <option> M.
-                <option> Mme.
+                <option value="M"> M.
+                <option value="Mme" > Mme.
             </select>
 
             <p>Nom :</p>
@@ -141,7 +136,7 @@ echo($_SESSION['error_connexion']);}?></p></div>
 <?php unset($_SESSION['error_connexion']); ?>
 </body>
 
-<footer>
+<footer class='footerCE'>
     <div class="bande"></div>
     <div class="footer">
         <img class="logo" src="images/OPENéduc_logo.png">

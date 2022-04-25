@@ -56,6 +56,15 @@ form{
 footer{
     background-color: white;
     
+    
+}
+.footerG{
+    position:absolute;
+    bottom:0px;
+    width: 100vw;
+}
+.footerCE{
+    margin-top: 50px;
 }
 .footer{
     display: flex;

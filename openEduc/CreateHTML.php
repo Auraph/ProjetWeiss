@@ -15,8 +15,8 @@ session_start();
 <header>
     <img class="logo" src="images/OPENéduc_logo.png">
     <div class="menu">
-        <p>Ecoles</p>
-        <p>A Propos</p>
+        <a class='lienHeaderE' href="ListeEcole.php">Ecoles</a>
+        <a class='lienHeaderA' href="APropos.php">A Propos</a>
     </div>
 </header>
 <body>
@@ -30,8 +30,9 @@ session_start();
 
             
             <select id=browsers name="droit">
-                <option> 0
-                <option> 1
+                <option value=0> Visualisation
+                <option value=1> Modification de son école
+                <option value=2> Modification de toutes les écoles et ajout
             </select>
 
 			<input class="button" type="submit" id="boutonConnect" value="Créer le compte"></input>
@@ -45,7 +46,7 @@ if(isset($_SESSION['error_connexion'])){
 echo($_SESSION['error_connexion']);}?></p></div>
 <?php unset($_SESSION['error_connexion']); ?>
 </body>
-<footer>
+<footer class='footerG'>
     <div class="bande"></div>
     <div class="footer">
         <img class="logo" src="images/OPENéduc_logo.png">

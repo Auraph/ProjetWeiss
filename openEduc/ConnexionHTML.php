@@ -15,8 +15,8 @@ session_start();
 <header>
     <img class="logo" src="images/OPENéduc_logo.png">
     <div class="menu">
-        <p>Ecoles</p>
-        <p>A Propos</p>
+        <a class='lienHeaderE' href="ListeEcole.php">Ecoles</a>
+        <a class='lienHeaderA' href="APropos.php">A Propos</a>
     </div>
 </header>
 <body>
@@ -39,7 +39,7 @@ if(isset($_SESSION['error_connexion'])){
 echo($_SESSION['error_connexion']);}?></p></div>
 <?php unset($_SESSION['error_connexion']); ?>
 </body>
-<footer>
+<footer class='footerG'>
     <div class="bande"></div>
     <div class="footer">
         <img class="logo" src="images/OPENéduc_logo.png">
