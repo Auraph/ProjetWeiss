@@ -1,0 +1,293 @@
+.eff{
+    margin-bottom: 50px;
+}
+
+
+header{
+    background-color: white;
+    box-shadow: 0px 15px 10px -15px gray;
+    display: flex;
+    align-items:baseline;
+}
+
+
+.lienHeader{
+    margin-left: 1em;
+    text-decoration: none;
+    color: black;
+    font-size: 1.25em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 0.5em;
+}
+.lienHeader:hover{
+    color: #343131;
+}
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+p{
+    margin: 1em;
+}
+
+h1{
+    margin-left: 2em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    margin-left: 3em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logoH{
+    width: 5em;
+    height: 5em;
+    margin: 0em 20em 0em 0.5em;
+}
+.logo{
+    width: 5em;
+    height: 5em;
+    margin: 0em 0.5em 0em 0.5em;
+}
+
+.champs{
+    border-radius: 0.7em;
+    height: 2em;
+    width: 20em;
+    border: 0em;
+}
+.bouttonAdd{
+    position:absolute;
+    right: 20px;
+    top:20px;
+    background-color: #5eff7e2c;
+    border:solid black 1px;
+    padding:10px;
+    font-size: 1.1em;
+    transition-duration: 0.2s;
+}
+.bouttonAddUser{
+    right:200px;
+}
+.bouttonDeco{
+    right:auto;
+    left:200px;
+}
+.bouttonAdd:hover{
+    background-color: white;
+    transition-duration: 0.2s;
+}
+
+.listeEcole{
+    margin-top: 2em;
+    margin-left: 2em;
+    border: solid black 1px;
+    width: 80vw;
+    transition-duration: 0.3s;
+}
+.listeEcole:hover{
+    background-color: rgba(0, 175, 3, 0.529);
+    transition-duration: 0.3s;
+}
+.listeCommune{
+    font-weight: bold;
+    margin: 0em;
+    font-size: 1.2em;
+    margin-left: 20px;
+    margin-top:10px;
+    
+}
+.listeNomEcole{
+    margin-top:0;
+    margin-left:60px;
+    margin-bottom:5px;
+    font-size: 1.2em;
+}
+.listeCommuneLib{
+    font-weight: 200;
+    font-size:1.1em;
+}
+.listeNomEcoleLib{
+    font-weight: bold;
+    color:#000100;
+    
+}
+.globalListe{
+    height: 60vh;
+    overflow-y: scroll;
+}
+
+.coEcole{
+    margin-left:40px;
+    border:solid black 1px;
+    max-width: 800px;
+    min-width: 40%;
+}
+.info{
+    font-weight: bold;
+}
+.divCo{
+    margin-left:40px;
+    border:solid black 1px;
+    max-width: 800px;
+    min-width: 40%;
+    margin-top:20px;
+}
+.divEcole{
+    margin-left:10vw;
+}
+
+.ecoleTableGen{
+    font-size:1.2em;
+    margin-top:40px;
+    margin-left:40px;
+    border:solid black 1px;
+    min-width: 800px;
+    border-collapse: collapse;
+    max-width: 80vw;
+}
+.ecoleTable{
+    background-color:#b9e567;
+    color:white;
+    font-size:20px;
+    padding: 10px;
+}
+.tableHead > th{
+   border:solid black 1px;
+    padding:10px;
+    padding-left:15px;
+    padding-right:15px;
+}
+.classeTableCol1{
+    background-color: #b9e567;
+    border-top:solid white 1px;
+    
+}
+.classeTableCol2{
+    border:#b9e567 solid 1px;
+}
+.classeTableCol3{
+    border-bottom:#b9e567 solid 1px;
+    border-left:#b9e567 solid 1px;
+    border-top:#b9e567 solid 1px;
+    border-right:solid black 1px;
+}
+.listeTable > td{
+    padding-top:5px;
+    padding-bottom:5px;
+   text-align: center;
+   
+}
+.totalEff{
+    border:#b9e567 solid 1px;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.totalEffCal{
+    border:#b9e567 solid 1px;
+    border-right:solid black 1px;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.moyenneEff{
+    border:#b9e567 solid 1px;
+    border-bottom:solid black 1px;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.moyenneEffCal{
+    border:#b9e567 solid 1px;
+    border-right:solid black 1px;
+    border-bottom:solid black 1px;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.listeEcoleListe{
+    font-weight: bold;
+   font-size:25px;
+}
+.ecoleCommune{
+    margin-left:80px;
+    font-weight: bold;
+    font-size:20px;
+    margin-bottom:0;
+}
+.ecoleNom{
+    margin-left:100px;
+    font-weight: bold;
+    font-size:20px;
+    margin-top:0;
+    margin-bottom: 40px;
+}
+
+body{
+    background-color: #eeeeee;
+    text-align: left;
+    margin: 0em;
+    display:felx;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height:fit-content;
+}
+
+form{
+    margin-left: 2em;
+}
+
+
+footer{
+    background-color: white;
+    
+    
+}
+.footerG{
+    position:absolute;
+    bottom:0px;
+    width: 100vw;
+}
+.footerCE{
+    margin-top: 50px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.5em;
+}
+.bande{
+    background-color: #b9e567;
+    height: 1em;
+    margin-bottom: 0.5em;
+}
+
+.button{
+    background-color: #b9e567;
+    color: white;
+    font-size:1em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.7em;
+    margin: 0.2em;
+    border-radius: 2em;
+    border: 0em;
+}
+.button:hover{
+    background-color:#b9e567;
+    color: white;
+    font-size:1em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.7em;
+    margin: 0.2em;
+    border-radius: 2em;
+}
