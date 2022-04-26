@@ -12,10 +12,10 @@ session_start();
 	<title>Ajouter un projet</title>
 </head>
 <header>
-    <img class="logo" src="images/OPENéduc_logo.png">
+    <img class="logoH" src="images/OPENéduc_logo.png">
     <div class="menu">
-        <a class='lienHeaderE' href="ListeEcole.php">Ecoles</a>
-        <a class='lienHeaderA' href="APropos.php">A Propos</a>
+        <a class='lienHeader' href="ListeEcole.php">Ecoles</a>
+        <a class='lienHeader' href="APropos.php">A Propos</a>
     </div>
 </header>
 <body>
@@ -141,7 +141,7 @@ echo($_SESSION['error_connexion']);}?></p></div>
     <div class="footer">
         <img class="logo" src="images/OPENéduc_logo.png">
         <img class="logo" src="images/AlsaNum_logo.png">
-        <p>Mentions Légales<p>
+        <a class='lienHeader' href="APropos.php">Mentions Légales</a>
     </div>
 </footer>
 </html>
