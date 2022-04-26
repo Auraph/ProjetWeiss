@@ -63,6 +63,18 @@ h2{
     border: 0em;
 }
 
+.listeEcole{
+    margin-top: 2em;
+    margin-left: 2em;
+}
+.listeCommune{
+    margin: 0em;
+    font-size: large;
+}
+.listeNomEcole{
+    margin: 0em;
+}
+
 body{
     background-color: #eeeeee;
     text-align: left;

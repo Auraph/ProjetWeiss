@@ -53,7 +53,7 @@ while($row=$res->fetch()){
 
 
 </body>
-<footer class='footerG'>
+<footer class='footerCE'>
     <div class="bande"></div>
     <div class="footer">
         <img class="logo" src="images/OPENéduc_logo.png">
